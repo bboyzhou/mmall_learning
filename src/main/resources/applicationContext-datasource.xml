@@ -49,7 +49,6 @@
         <!-- #连接的超时时间，默认为半小时。 -->
         <property name="minEvictableIdleTimeMillis" value="${db.minEvictableIdleTimeMillis}"/>
 
-
         <!--# 失效检查线程运行时间间隔，要小于MySQL默认-->
         <property name="timeBetweenEvictionRunsMillis" value="40000"/>
         <!--# 检查连接是否有效-->
